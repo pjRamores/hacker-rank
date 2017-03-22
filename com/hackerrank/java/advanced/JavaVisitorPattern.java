@@ -34,8 +34,7 @@ public class JavaVisitorPattern {
     
     @SuppressWarnings("unchecked")
     public static Tree solve() {
-        // Scanner in = new Scanner(System.in);
-        Scanner in = new Scanner(JavaVisitorPattern.class.getResourceAsStream("JavaVisitorPattern2.in"));
+        Scanner in = new Scanner(System.in);
         
         int n = in.nextInt();
         x = new int[n];
